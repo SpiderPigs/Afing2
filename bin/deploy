@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+mvn package
+cp target/my-app-1.0-SNAPSHOT.jar /tmp/
+java -cp /tmp/my-app-1.0-SNAPSHOT.jar com.mycompany.app.App
+
