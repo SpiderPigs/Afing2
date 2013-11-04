@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
-java -cp /tmp/my-app-1.0-SNAPSHOT.jar is.spiderpigs.app.HelloWorld
+java -cp target/my-app-1.0-SNAPSHOT-jar-with-dependencies.jar is.spiderpigs.app.HelloWorld
 
